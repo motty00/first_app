@@ -4,6 +4,3 @@ Rails.application.routes.draw do
   post "posts", to: "posts#create"
 end
 
-rails g controller posts
-
-rails g model post
